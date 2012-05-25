@@ -1,10 +1,9 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
-require "rails-asset-dhtmlxscheduler/version"
+require File.expand_path('../lib/rails-asset-dhtmlxscheduler/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "rails-asset-dhtmlxscheduler"
-  s.version     = Rails::Asset::Dhtmlxscheduler::VERSION
+  s.version     = Dhtmlxscheduler::Rails::VERSION
   s.authors     = ["premprakash"]
   s.email       = ["prem-prakash@live.com"]
   s.homepage    = "https://github.com/prem-prakash/rails-asset-dhtmlxscheduler"
@@ -19,6 +18,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # specify any dependencies here; for example:
-  s.add_development_dependency "rspec"
-  s.add_development_dependency "rails", ">= 3.1.0"
+  s.add_development_dependency "rake"
 end

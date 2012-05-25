@@ -1,7 +1,5 @@
-module Rails
-  module Asset
-    module Dhtmlxscheduler
-      VERSION = "0.0.1"
-    end
+module Fullcalendar
+  module Rails
+    VERSION = "0.0.1"
   end
 end
